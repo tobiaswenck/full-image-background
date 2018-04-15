@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 'Amatic SC', cursive;
+  color: #777;
+  text-decoration: none;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bg {
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #777;
+}
+
+.right {
+  font-size: 2em;
+}
+
+#qmenu-button {
+  background-color: #2e3d5c;
+}
+
+.bg {
+  background-image: url("bg.jpg");
+  height: 100%;
+}
+
+#menu {
+  margin-left: 0.7em;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #333;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #666;
+}
+
